@@ -12,3 +12,9 @@ C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST
 C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.exe
 C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.xml
 C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.pdb
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\bin\Debug\TEST.exe
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\bin\Debug\TEST.pdb
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\bin\Debug\TEST.xml
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.Form1.resources
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.Resources.resources
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.vbproj.GenerateResource.Cache
