@@ -1,0 +1,14 @@
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\bin\Debug\TEST.exe.config
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\bin\Debug\TEST.exe
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\bin\Debug\TEST.pdb
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\bin\Debug\TEST.xml
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\obj\Debug\TEST.Form1.resources
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\obj\Debug\TEST.Resources.resources
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\obj\Debug\TEST.vbproj.GenerateResource.Cache
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\obj\Debug\TEST.exe
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\obj\Debug\TEST.xml
+c:\users\tylerpuleo\documents\visual studio 2013\Projects\TEST\TEST\obj\Debug\TEST.pdb
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\bin\Debug\TEST.exe.config
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.exe
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.xml
+C:\Users\tylerpuleo\Documents\GitHub\Teaching\ExampleCode\Visual Basic\TEST\TEST\obj\Debug\TEST.pdb
