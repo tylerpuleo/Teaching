@@ -344,7 +344,7 @@ For k = 0 To (o("datapointCount") - 1)
 	sum_of_number1 = sum_of_number1 + CInt(o("data")(k)("4248"))
 Next
 
-	WScript.Echo "The total of field 4248 is: " & sum_of_number1
+WScript.Echo "The total of field 4248 is: " & sum_of_number1
 
 
 
