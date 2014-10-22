@@ -325,26 +325,32 @@ Class VbsJson
 
 End Class
 
-Dim dataset
-Set dataset = CreateObject("MSXML2.XMLHTTP")
-dataset.open "GET", "http://rsense-dev.cs.uml.edu/api/v1/data_sets/6529?recur=true.json", False
-dataset.send
 
-Wscript.Echo dataset.responseText
 
-Dim fso, json, str, o, i,k
-Set json = New VbsJson
-Set fso = WScript.CreateObject("Scripting.Filesystemobject")
-str = dataset.responseText 
-Set o = json.Decode(str)
+function myfunction()
+	Dim dataset
+	Set dataset = CreateObject("MSXML2.XMLHTTP")
+	dataset.open "GET", "http://rsense-dev.cs.uml.edu/api/v1/data_sets/6529?recur=true.json", False
+	dataset.send
 
-dim sum_of_number1
+	Wscript.Echo dataset.responseText
 
-For k = 0 To (o("datapointCount") - 1)
-	sum_of_number1 = sum_of_number1 + CInt(o("data")(k)("4248"))
-Next
+	Dim fso, json, str, o, i,k
+	Set json = New VbsJson
+	Set fso = WScript.CreateObject("Scripting.Filesystemobject")
+	str = dataset.responseText 
+	Set o = json.Decode(str)
 
-WScript.Echo "The total of field 4248 is: " & sum_of_number1
+	dim sum_of_number1
+
+	For k = 0 To (o("datapointCount") - 1)
+		sum_of_number1 = sum_of_number1 + CInt(o("data")(k)("4248"))
+	Next
+
+	WScript.Echo "The total of field 4248 is: " & sum_of_number1
+end function
+
+myfunction()
 
 
 
