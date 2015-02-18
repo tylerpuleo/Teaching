@@ -1,5 +1,5 @@
 function run() {
-
+/*
 //  /api/v1/projects/XX
 
     var urlProject = 'http://isenseproject.org/api/v1/projects/835';
@@ -177,5 +177,25 @@ function run() {
                         dataType: "JSON"
     }).responseText;
 
-    var parsedResponseProject = JSON.parse(responseProject); 
+    var parsedResponseProject = JSON.parse(responseProject);
+   */
+
+    var picture = $("#picture").text();
+
+    console.log(picture);
+
+    var apiUrl = 'http://isenseproject.org/api/v1/media_objects';
+
+    var upload = {
+
+
+        'upload' : picture,
+        'email' : 't@t.t',
+        'password' : 't',
+        'type' : 'project',
+        'id' : '106'
+    }
+    $.post(apiUrl, upload);
+
+
 }
