@@ -180,22 +180,45 @@ function run() {
     var parsedResponseProject = JSON.parse(responseProject);
    */
 
-    var picture = $("#picture").text();
+	var src = document.getElementById('picture').src;
 
-    console.log(picture);
+	var ajax = new XMLHttpRequest();
+	ajax.open("GET", src, true);
+	ajax.responseType = "arraybuffer";
 
-    var apiUrl = 'http://isenseproject.org/api/v1/media_objects';
+	ajax.onload = function () {
+	    var bAr = new Uint8Array(ajax.response);
+	    for (var i = 0; i < bAr.length; i++) {  
+	        //Modify binary?
+	    }
+		var result = "";
+		for (var i = 0; i < bAr.length; i++) {
+			result += String.fromCharCode(parseInt(bAr[i], 10));
+		}
 
-    var upload = {
+	    var encoded = btoa(result);
+	    console.log(encoded);
 
 
-        'upload' : picture,
-        'email' : 't@t.t',
-        'password' : 't',
-        'type' : 'project',
-        'id' : '106'
-    }
-    $.post(apiUrl, upload);
+	    var apiUrl = 'http://isenseproject.org/api/v1/media_objects';
+
+	    var upload = {
+
+
+	        'upload' : encoded,
+	        'email' : 't@t.t',
+	        'password' : 't',
+	        'type' : 'project',
+	        'id' : 106
+	    }
+	    $.post(apiUrl, upload);
+
+	}
+
+	ajax.send();
+
+
+
 
 
 }
