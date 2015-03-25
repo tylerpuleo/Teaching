@@ -180,7 +180,7 @@ function run() {
     var parsedResponseProject = JSON.parse(responseProject);
    */
 
-	var src = document.getElementById('picture').src;
+	var src = documen3/9/15t.getElementById('picture').src;
 
 	var ajax = new XMLHttpRequest();
 	ajax.open("GET", src, true);
