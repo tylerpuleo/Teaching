@@ -1,5 +1,5 @@
 function run() {
-<<<<<<< HEAD
+
 /*
 //  /api/v1/projects/XX
 =======
@@ -258,7 +258,7 @@ function run() {
 
     var parsedResponseProject = JSON.parse(responseProject);
    */
-
+/*
 	var src = documen3/9/15t.getElementById('picture').src;
 
 	var ajax = new XMLHttpRequest();
@@ -316,4 +316,17 @@ function run() {
     console.log(parsedResponse);
 
 >>>>>>> 57a82665577800d7b9766272ef1314090a1d622b
+*/
+
+    var url = 'http://rsense-dev.cs.uml.edu/api/v1/projects/106/key';
+    var response = $.ajax({ type: "GET",
+                        url: url,
+                        async: false,
+                        dataType: "JSON",
+                        data : {"contribution_key":"key"}
+    }).responseText;
+
+    var parsedResponse = JSON.parse(response);
+    console.log(parsedResponse);
+    
 }
